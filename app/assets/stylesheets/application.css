@@ -1,0 +1,99 @@
+/* General body and typography styling */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333;
+  }
+  
+  /* Container styling for centering content */
+  .container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Navigation styling */
+  .navigation {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .navigation ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .navigation li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  .navigation a {
+    text-decoration: none;
+    color: #337ab7; /* Bootstrap default link color */
+    font-weight: bold;
+  }
+  
+  .navigation a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Project section styling */
+  .project {
+    margin: 20px 0;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 20px;
+  }
+  
+  .project:last-child {
+    border-bottom: none;
+  }
+  
+  .project img {
+    width: 100%;
+    max-width: 600px; /* Adjust based on your preference */
+    height: auto;
+    display: block;
+    margin: 0 auto 20px;
+  }
+  
+  /* Headings styling */
+  h1, h2 {
+    color: #333;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+  }
+  
+  /* List styling */
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    padding: 5px 0;
+  }
+  
+  /* Link styling for better accessibility */
+  a {
+    color: #337ab7;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
